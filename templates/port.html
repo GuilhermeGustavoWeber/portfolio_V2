@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio GGW</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <h1>Guilherme Gustavo Weber</h1>
+        <p>Estudante: Ciência da Computação | Programação | Desenvolvimento</p>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou um desenvolvedor com o comprometimento e motivação na busca de oportunidades para crescer e contribuir, agregando conhecimento e desenvolvendo novas habilidades. Adquirindo experiência em várias linguagens de programação e frameworks modernos. </p>
+    </section>
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <div class="projeto">
+            <h3>Deploy Flask</h3>
+            <p>O projeto "Deploy Flask" é uma aplicação web desenvolvida em Flask, um framework web leve para Python. O objetivo deste projeto é demonstrar o processo de criação e deploy de uma aplicação web simples utilizando Flask, bem como a configuração de um ambiente de produção para garantir que a aplicação esteja disponível para os usuários finais.
+            <p>Tecnologias Usadas: Flask, Python, HTML e CSS, Git.</p>
+        </div>
+        <!-- Adicione mais projetos conforme necessário -->
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Java (básico)</li>
+            <li>Python</li>
+            <li>C/C++</li>
+            <li>Android (básico)</li>
+            <li>Microsoft Office</li>
+            <!-- Adicione mais habilidades conforme necessário -->
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Guilherme Gustavo Weber. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
