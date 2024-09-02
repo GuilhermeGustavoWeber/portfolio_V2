@@ -109,6 +109,23 @@ section h2 {
     transform: translateY(-5px);
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
+.projeto button {
+    position: absolute;
+    bottom: 10px; /* Ajusta a distância do botão em relação ao fundo do container */
+    right: 10px;  /* Ajusta a distância do botão em relação ao lado direito do container */
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.projeto button:hover {
+    background-color: #0056b3;
+}
 
 /* Estilos para a seção de redes sociais */
 .redes-sociais {
