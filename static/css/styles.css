@@ -110,6 +110,11 @@ section h2 {
     transform: translateY(-5px);
     box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
 }
+.link-container {
+    display: flex;
+    justify-content: flex-end; /* Alinha o link à direita */
+    margin-top: 1rem;
+}
 
 .project-link {
     display: inline-block;
@@ -129,7 +134,7 @@ section h2 {
     background: linear-gradient(135deg, #2c3e50, #3498db);
     transform: translateY(-2px);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-    color: #ecf0f1; /* Alterar a cor do texto para um tom mais claro no hover */
+    color: #ecf0f1;
 }
 
 .project-link:focus {
