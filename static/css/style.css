@@ -1,0 +1,26 @@
+/* Estilos para a seção de redes sociais */
+.redes-sociais {
+    text-align: center;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0.5rem;
+    text-decoration: none;
+    color: #004a9c; /* Azul escuro */
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icon img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 0.5rem;
+}
+
+.social-icon:hover {
+    color: #7d9acf; /* Azul claro */
+    transform: translateY(-2px);
+}
